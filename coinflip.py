@@ -20,10 +20,10 @@ def flip_coin():
     print('WIP')
 
 T = int(input())
-if T>1 and T<=10:
+if T>=1 and T<=10:
     for test in range(T):
         G = int(input())
-        if G>1 and G<=2000:
+        if G>=1 and G<=2000:
             for game in range(G):
                 I, N, Q = input().strip().split()
                 if (int(I) == 1):
@@ -32,8 +32,11 @@ if T>1 and T<=10:
                     pass
                 else:
                     exit()
-                for rounds in range(int(N)):
-                    flip_coin()
+                if int(N)>=1 and int(N)<=109:
+                    for rounds in range(int(N)):
+                        flip_coin()
+                else:
+                    break
                 if (int(Q) == 1):
                     print(q_is(Q))
                 elif (int(Q) == 2):
