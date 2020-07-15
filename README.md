@@ -39,7 +39,8 @@ For each game, output one integer denoting the total number of coins showing the
 ##### Sample Output:
 2
 3
-Explanation:
+
+##### Explanation:
 In the 1st game in Example: I=1, so initial arrangement of coins are H H H H H, and now Elephant will play 5 rounds and coin faces will be changed as follows
 After the 1st Round: T H H H H
 After the 2nd Round: H T H H H
