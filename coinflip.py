@@ -40,3 +40,7 @@ if T>1 and T<=10:
                     print(q_is(Q))
                 else:
                     exit()
+        else:
+            exit()
+else:
+    exit()
